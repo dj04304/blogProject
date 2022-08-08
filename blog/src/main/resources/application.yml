@@ -8,11 +8,11 @@ server:
       force: true
 
 spring:
-#  mvc:
-#    static-path-pattern: /static/**
-#    view:
-#      prefix: /WEB-INF/views/
-#      suffix: .jsp
+  mvc:
+    static-path-pattern: /static/**
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
       
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
